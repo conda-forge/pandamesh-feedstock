@@ -16,12 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
-    - setuptools >=64.0.0
-    - wheel
+    - python >=3.9
+    - hatchling
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - geopandas
     - py-triangle
     - gmsh
