@@ -1,5 +1,5 @@
 {% set name = "pandamesh" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pandamesh-{{ version }}.tar.gz
-  sha256: 52e14768fc756abeea6a77e397a4d07befcbcc1696141e1c7ca91ece47c8e24a
+  sha256: c4e3efafb80687a66ffdf4cc3dc307dbed79fb5627ec0ee9dcc4057440a2900a
 
 build:
   noarch: python
