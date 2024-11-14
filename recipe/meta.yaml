@@ -47,6 +47,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - deltares-service-account
     - Huite
     - JoerivanEngelen
     - visr
