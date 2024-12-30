@@ -19,6 +19,7 @@ requirements:
     - python {{ python_min }}
     - hatchling
     - pip
+    - libgl-devel  # [linux]
   run:
     - python >={{ python_min }}
     - geopandas
